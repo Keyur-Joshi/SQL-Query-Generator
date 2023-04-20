@@ -59,6 +59,7 @@ const App = () => {
     <div className="app">
       <MessagesDisplay userMessages={filterUserMessages} />
       <input
+        placeholder="Try this... Find all users in US who have credit score above 1000"
         value={value}
         onChange={(e) => setValue(e.target.value)}
         onKeyDown={handleKeyDown}
